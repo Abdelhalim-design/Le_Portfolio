@@ -1,0 +1,31 @@
+site_name: "Portfolio Abdelhalim Zouggagh"
+
+theme:
+  name: "material"
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+    - scheme: slate
+      primary: blue
+      accent: orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: "images/Logo-IUT-UM-Horizontal-couleur.png"
+  favicon: "images/favicon.ico"
+
+nav:
+  - Accueil: index.md
+  - Formation: formation.md
+  - Expériences Professionnelles: experiences.md
+  - Compétences: competences.md
+  - Contact: contact.md
+  - Centres d'intérêt: centres_interet.md
+  - Langues: langues.md
+
+extra_css:
+  - css/extra.css
+
+plugins:
+  - search
